@@ -1,0 +1,50 @@
+@use 'typography';
+@use 'variables';
+
+//body
+body {
+    font-family: variables.$font-stack-text;
+    font-size: 24px;
+}
+
+//Headings
+h1 {
+    font-family: variables.$font-stack-headings;
+    font-size: typography.$font-xxl;
+}
+
+h2 {
+    font-family: variables.$font-stack-headings;
+    font-size: typography.$font-xl;
+}
+
+h3 {
+    font-family: variables.$font-stack-headings;
+    font-size: typography.$font-large;
+}
+
+h4 {
+    font-family: variables.$font-stack-headings;  
+    font-size: typography.$font-medium;
+}
+
+h5 {
+    font-family: variables.$font-stack-headings;  
+    font-size: typography.$font-small;
+}
+
+h6 {
+    font-family: variables.$font-stack-headings;  
+    font-size: typography.$font-xsm;
+}
+
+//italic
+em {
+    font-style: typography.$font-italic;
+    font-weight: typography.$font-light;
+}
+
+//strong
+strong {
+    font-weight: typography.$font-bold;
+}
