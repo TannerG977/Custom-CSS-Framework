@@ -1,0 +1,11 @@
+@use 'typography';
+
+//strong
+.text-strong{
+    font-weight: typography.$font-bold;
+}
+
+//Italic
+.text-italic{
+    font-style: typography.$font-italic;
+}
