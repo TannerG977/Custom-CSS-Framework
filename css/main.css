@@ -97,6 +97,16 @@ strong {
   font-weight: 700;
 }
 
+a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #f30a0a;
+}
+
+h1 {
+  color: #f30a0a;
+}
+
 .text-strong {
   font-weight: 700;
 }
