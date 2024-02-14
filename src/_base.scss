@@ -54,9 +54,19 @@ strong {
 a {
     display: inline-block;
     text-decoration: underline;
-    color: color.$primary-color;
+    color: color.$fifth-color;
+
+    &:hover{
+        text-decoration: none;
+        color:red;
+    }
+
+    &:active{
+        color: pink; 
+    }
 }
 
-h1 {
-    color: color.$primary-color;
-}
+// Borders
+
+
+// Background
