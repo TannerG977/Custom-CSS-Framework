@@ -139,9 +139,47 @@ a:active {
 }
 
 .primary-border {
-  border-style: solid;
+  border-style: dashed;
   border-width: 5px;
   border-color: #D6DEA7;
+}
+
+.primary-border-small {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #D6DEA7;
+}
+
+.secondary-border {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #CCAA02;
+}
+
+.secondary-border-small {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #CCAA02;
+}
+
+.bg-primary {
+  background-color: #D6DEA7;
+}
+
+.bg-secondary {
+  background-color: #CCAA02;
+}
+
+.bg-third {
+  background-color: #D1E3C6;
+}
+
+.bg-fourth {
+  background-color: #e4e694;
+}
+
+.bg-fifth {
+  background-color: #F0E200;
 }
 
 /*# sourceMappingURL=main.css.map */
