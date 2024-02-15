@@ -10,3 +10,29 @@
 .text-italic{
     font-style: typography.$font-italic;
 }
+
+// button utility class
+.btn {
+    background-color: color.$button-color;
+    color: #FFF;
+    font-weight: 600;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+// table utility class
+.custom-table {
+    background-color: color.$tertiary-color;
+    border-radius: 12px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+// style for table cells
+.custom-table td {
+    padding: 12px;
+    text-align: center;
+    border: 4px solid #FFF;
+}
