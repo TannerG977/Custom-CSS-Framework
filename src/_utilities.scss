@@ -1,6 +1,7 @@
 @use 'typography';
 @use 'spacing';
 
+@use 'color';
 //strong
     .text-strong{
         font-weight: typography.$font-bold;

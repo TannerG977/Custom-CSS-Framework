@@ -1,5 +1,6 @@
 @use 'typography';
 @use 'variables';
+@use 'color';
 
 //body
 body {
@@ -47,4 +48,15 @@ em {
 //strong
 strong {
     font-weight: typography.$font-bold;
+}
+
+// Links
+a {
+    display: inline-block;
+    text-decoration: underline;
+    color: color.$primary-color;
+}
+
+h1 {
+    color: color.$primary-color;
 }
