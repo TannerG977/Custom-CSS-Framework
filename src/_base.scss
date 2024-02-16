@@ -9,6 +9,12 @@ body {
 }
 
 //Headings
+
+h1, h2, h3, h4, h5, h6 {
+    color: color.$secondary-color;
+    margin-bottom: 12px;
+}
+
 h1 {
     font-family: variables.$font-stack-headings;
     font-size: typography.$font-xxl;
