@@ -26,7 +26,7 @@
 
 // table utility class
 .custom-table {
-    background-color: color.$tertiary-color;
+    background-color: color.$third-color;
     border-radius: 12px;
     margin: 0 auto;
     width: 50%;
@@ -296,3 +296,71 @@
         padding: spacing.$spacing-xxl;
     }
 
+
+// Colors
+.primary-color {
+    color: color.$primary-color;
+}
+
+.secondary-color {
+    color: color.$secondary-color;
+}
+
+.third-color {
+    color: color.$third-color;
+}
+
+.fourth-color {
+    color: color.$fourth-color;
+}
+
+.fifth-color {
+    color: color.$fifth-color;
+}
+
+// Links - Regular, Small
+
+.primary-border {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: color.$primary-color;
+}
+
+.primary-border-small {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: color.$primary-color;
+}
+
+.secondary-border {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: color.$secondary-color;
+}
+
+.secondary-border-small {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: color.$secondary-color;
+}
+
+// Background colors
+.bg-primary {
+    background-color: color.$primary-color;
+}
+
+.bg-secondary {
+    background-color: color.$secondary-color;
+}
+
+.bg-third {
+    background-color: color.$third-color;
+}
+
+.bg-fourth {
+    background-color: color.$fourth-color;
+}
+
+.bg-fifth {
+    background-color: color.$fifth-color;
+}
