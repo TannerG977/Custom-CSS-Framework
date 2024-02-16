@@ -1,6 +1,7 @@
 @use 'typography';
 @use 'variables';
 @use 'color';
+@use 'spacing';
 
 //body
 body {
@@ -9,11 +10,6 @@ body {
 }
 
 //Headings
-
-h1, h2, h3, h4, h5, h6 {
-    color: color.$secondary-color;
-    margin-bottom: 12px;
-}
 
 h1 {
     font-family: variables.$font-stack-headings;
@@ -51,6 +47,11 @@ em {
     font-weight: typography.$font-light;
 }
 
+i {
+    font-style: typography.$font-italic;
+    font-weight: typography.$font-light;
+}
+
 //strong
 strong {
     font-weight: typography.$font-bold;
@@ -72,7 +73,60 @@ a {
     }
 }
 
-// Borders
+//forms
+
+form {
+    margin-bottom: 15px;
+    font-family: variables.$font-stack-text;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    font-family: variables.$font-stack-text;
+    font-size: 24px;
+}
+
+select {
+    width: 40%;
+    padding: 16px;
+    border: 1px solid color.$secondary-color;
+    border-radius: 4px;
+    font-family: variables.$font-stack-text;
+    font-size: typography.$font-xsm;
+}
+
+input[type=text]{
+    width: 40%;
+    padding: 16px;
+    border: 1px solid color.$secondary-color;
+    border-radius: 4px;
+    font-family: variables.$font-stack-text;
+    font-size: typography.$font-xsm;
+}
+
+// Other HTML Tags
+blockquote {
+    font-weight: typography.$font-light;
+    text-align: center;
+    padding: 1rem;
+}
+
+//lists
+
+ul{
+   list-style-type: square;
+}
 
 
-// Background
+
+
+
+
+
+
+
+

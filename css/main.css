@@ -34,10 +34,6 @@ body {
   line-height: 1;
 }
 
-ol, ul {
-  list-style: none;
-}
-
 blockquote, q {
   quotes: none;
 }
@@ -56,11 +52,6 @@ table {
 body {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 24px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #CCAA02;
-  margin-bottom: 12px;
 }
 
 h1 {
@@ -98,6 +89,11 @@ em {
   font-weight: 300;
 }
 
+i {
+  font-style: italic;
+  font-weight: 300;
+}
+
 strong {
   font-weight: 700;
 }
@@ -115,6 +111,49 @@ a:active {
   color: pink;
 }
 
+form {
+  margin-bottom: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+}
+
+select {
+  width: 40%;
+  padding: 16px;
+  border: 1px solid #CCAA02;
+  border-radius: 4px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1rem;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 16px;
+  border: 1px solid #CCAA02;
+  border-radius: 4px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1rem;
+}
+
+blockquote {
+  font-weight: 300;
+  text-align: center;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: square;
+}
+
 .text-strong {
   font-weight: 700;
 }
@@ -130,7 +169,6 @@ a:active {
   padding: 12px 15px;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
 }
 
 .custom-table {
@@ -147,9 +185,13 @@ a:active {
 }
 
 .list-group {
-  margin-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-align: center;
   border: 1px solid #CCAA02;
   border-radius: 8px;
+  list-style-type: none;
 }
 .list-group > .list-item {
   padding: 8px;
@@ -161,6 +203,8 @@ a:active {
 
 .form-group {
   margin-bottom: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
 }
 
 .form-group label {
@@ -168,6 +212,8 @@ a:active {
   margin-top: 16px;
   margin-bottom: 5px;
   font-size: 0.8rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
 }
 
 .form-group input[type=text],
@@ -178,6 +224,8 @@ a:active {
   padding: 16px;
   border: 1px solid #CCAA02;
   border-radius: 4px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1rem;
 }
 
 .mt-0 {
@@ -482,6 +530,18 @@ a:active {
 
 .bg-fifth {
   background-color: #F0E200;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
 }
 
 /*# sourceMappingURL=main.css.map */

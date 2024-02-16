@@ -1,6 +1,7 @@
 @use 'typography';
 @use 'spacing';
 @use 'color';
+@use 'variables';
 
 
 //strong
@@ -21,7 +22,6 @@
     padding: 12px 15px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 // table utility class
@@ -41,9 +41,13 @@
 
 // Styles for list
 .list-group{
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
     border: 1px solid color.$secondary-color;
     border-radius: 8px;
+    list-style-type: none;
     > .list-item{
         padding: 8px;
         border-bottom: 1px solid color.$secondary-color;
@@ -56,6 +60,8 @@
 // Styles for form
 .form-group {
     margin-bottom: 15px;
+    font-family: variables.$font-stack-text;
+    font-size: 24px;
 }
   
 .form-group label {
@@ -63,6 +69,8 @@
     margin-top: 16px;
     margin-bottom: 5px;
     font-size: 0.8rem;
+    font-family: variables.$font-stack-text;
+    font-size: 24px;
 }
 
 .form-group input[type="text"],
@@ -73,9 +81,9 @@
     padding: 16px;
     border: 1px solid color.$secondary-color;
     border-radius: 4px;
+    font-family: variables.$font-stack-text;
+    font-size: typography.$font-xsm;
 }
-
-
 
 
 //Margin
@@ -401,4 +409,18 @@
 
 .bg-fifth {
     background-color: color.$fifth-color;
+}
+
+//text justifications
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
 }
