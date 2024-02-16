@@ -39,6 +39,44 @@
     border: 4px solid #FFF;
 }
 
+// Styles for list
+.list-group{
+    margin-left: 20px;
+    border: 1px solid color.$secondary-color;
+    border-radius: 8px;
+    > .list-item{
+        padding: 8px;
+        border-bottom: 1px solid color.$secondary-color;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+}
+
+// Styles for form
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+    width: 40%;
+    padding: 16px;
+    border: 1px solid color.$secondary-color;
+    border-radius: 4px;
+}
+
+
+
 
 //Margin
 

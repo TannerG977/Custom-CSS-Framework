@@ -146,6 +146,40 @@ a:active {
   border: 4px solid #FFF;
 }
 
+.list-group {
+  margin-left: 20px;
+  border: 1px solid #CCAA02;
+  border-radius: 8px;
+}
+.list-group > .list-item {
+  padding: 8px;
+  border-bottom: 1px solid #CCAA02;
+}
+.list-group > .list-item:last-child {
+  border-bottom: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+}
+
+.form-group input[type=text],
+.form-group input[type=email],
+.form-group input[type=password],
+.form-group select {
+  width: 40%;
+  padding: 16px;
+  border: 1px solid #CCAA02;
+  border-radius: 4px;
+}
+
 .mt-0 {
   margin-top: 0rem !important;
 }
