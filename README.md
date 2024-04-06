@@ -1,5 +1,5 @@
 #  SneakerVelcro
-Here is a description of our backrooms inspired framework
+Here is a description of our framework
 
 ## Installation 
 [Download main.css](css/main.css) to use SneakerVelcro in your project.
